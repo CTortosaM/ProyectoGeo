@@ -1,4 +1,52 @@
-#contenedorMapa {
-    height: 700px;
-    width: 800px;
+
+body {
+    font-family: 'Raleway', sans-serif, bold;
 }
+
+header {
+    align-items: center;
+}
+
+
+#logoGTI {
+    cursor: pointer;
+    min-width: 10%;
+    max-width: 15%;
+}
+
+#contenedorMapa {
+    height: 740px;
+    width: 1000px;
+}
+
+#contenedorDeTodo {
+    max-width: 100%;
+    
+}
+
+#fila {
+    width: 100%;
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+

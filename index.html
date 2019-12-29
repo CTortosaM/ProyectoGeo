@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head lang="es">
+<head lang="es" title="Geoportal Carlos Tortosa">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin="" />
@@ -28,16 +28,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!--Cargar Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header class="row">
-        <h1>MI PAGINA DISFRUTEN</h1>
+    <header class="row m-2 border-bottom">
+        <img class="col-3" id="logoGTI" src="./images/logoGTI.svg">
+        <h1 class="col-7 text-center align-middle text-monospace display-8">Portfolio Carlos Tortosa Micó</h1>
     </header>
-    <div class="container">
-        <div class="row m-1">
-            <div class="col-6">
-                <div id="contenedorMapa"></div>
+    <div id="contenedorDeTodo" class="container ml-3">
+        <div class="row d-flex">
+            <div class="col-9 p-2 m-3" id="contenedorMapa"></div>
+            <div id="contenedorExplicacion" class="col-2 text-monospace p-3 border-left">
+                <h3>Descripción</h3>
+                <p> Portfolio para la asignatura de Tecnologías de la Información Geográfica, impartida en el Grado en
+                    Tecnologías Interactivas.</p>
+                <p>Curso 2019-2020</p>
             </div>
         </div>
     </div>
